@@ -1,8 +1,10 @@
+import "./style.css";
+
 // criando uma jsx
 function CardGame() {
   return `
-        <article>
-            CardGame
+        <article class='card-game'>
+            <img src='images/logo-alura.png' alt='Logo da alura'>
         </article>    
     `;
 }
